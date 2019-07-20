@@ -22,3 +22,6 @@ export PATH=$PATH:/media/eric/_dde_data/Projects/05-flutter/bin:/home/eric/.andr
 
 # Insert home bin to path
 export PATH=$PATH:$HOME/bin/
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
