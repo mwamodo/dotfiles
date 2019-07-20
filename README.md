@@ -37,3 +37,5 @@ $ sudo apt install vim git xdotool zenity xsel
 cd dotfiles
 bash get-me-started.sh
 ```
+
+<!-- TODO: Add nvm installation to the get started script -->
