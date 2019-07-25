@@ -16,7 +16,8 @@ alias v="vim"
 alias vi="vim"
 alias c="code"
 alias hd="trash .zsh_history"
-alias j="code $HOME/.Journal/$DATE.md"
+alias jornal="code $HOME/.Journal/$DATE.md"
+alias j = "jump"
 alias h="history | awk '{print $2}' | sort | uniq -c | sort -rn | head -5"
 
 # TRASH; Prevent Permanent Deletes
