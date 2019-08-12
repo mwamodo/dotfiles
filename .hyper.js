@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 10,
 
     // font family with optional fallbacks
-    fontFamily: '"Operator Mono Lig","Fira Mono for Powerline", monospace',
+    fontFamily: '"OperatorMono Nerd Font", "Fira Mono for Powerline", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
@@ -131,7 +131,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyperterm-cobalt2-theme", "hyper-opacity"],
+  plugins: ["shades-of-purple-hyper", "hyper-opacity" ],
 
   css: `
     @keyframes fadeOut {
