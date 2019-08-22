@@ -15,9 +15,9 @@ alias glog="git log --graph --pretty=format:'''%Cred%h%Creset -%C(yellow)%d%Cres
 alias v="vim"
 alias vi="vim"
 alias c="code"
-alias hd="trash .zsh_history"
-alias jornal="code $HOME/Documents/.Journal/$DATE.md"
 alias j="jump"
+alias hd="trash .zsh_history"
+alias journal="code $HOME/nine.africa/Documents/Journal/$DATE.md"
 alias h="history | awk '{print $2}' | sort | uniq -c | sort -rn | head -5"
 
 # TRASH; Prevent Permanent Deletes
