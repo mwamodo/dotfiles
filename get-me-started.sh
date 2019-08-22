@@ -21,3 +21,4 @@ ln -s "${HOME}/dotfiles/vim/plugins.vim" "${HOME}/.vim/plugins.vim"
 vim +PluginInstall +qall
 
 # TODO: Display a success message if all goes well
+# TODO: add Taskwarrior config to shortcut to linking to dotfiles
