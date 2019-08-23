@@ -21,8 +21,10 @@ $ git clone git@github.com:mwamodojnr/dotfiles.git
 
 2. Install Requirements
 
+**install nodejs, comes with npm and npx**
+
 ```bash
-npm install -g eslint eslint-plugin-prettier eslint-config-prettier eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-import prettier
+npx install-peerdeps --global eslint-config-wesbos
 ```
 
 then:
