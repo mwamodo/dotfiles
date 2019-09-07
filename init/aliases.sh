@@ -19,6 +19,7 @@ alias j="jump"
 alias hd="trash .zsh_history"
 alias journal="code $HOME/nine.africa/Documents/Journal/$DATE.md"
 alias jencrypt="steghide embed -cf $HOME/nine.africa/Documents/Journal/$DATE.jpg -ef $HOME/nine.africa/Documents/Journal/$DATE.md"
+alias jshred="shred -uv $HOME/nine.africa/Documents/Journal/$DATE.md"
 alias jdecrypt="steghide extract -sf"
 alias h="history | awk '{print $2}' | sort | uniq -c | sort -rn | head -5"
 
