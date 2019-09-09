@@ -26,6 +26,15 @@ export PATH=$PATH:$HOME/bin/
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
+# Wrapper; Notify me when a script is done
+
+export wrapper(){
+  start=$(date +%s)
+  "$@"
+  [ $(($(date +%s) - start)) -le 15 ] || notify-send "Notification" "Long\
+ running command \"$(echo $@)\" took $(($(date +%s) - start)) seconds to finish"
+}
+
 # Load nvm automatically when a dir has .nvmrc file
 
 # autoload -U add-zsh-hook
