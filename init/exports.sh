@@ -17,11 +17,10 @@ export EDITOR=vim
 
 export DATE=`date +%d-%m-%Y`
 
-# Insert flutter to path
-export PATH=$PATH:/media/eric/_dde_data/Projects/05-flutter/bin:/home/eric/.android-studio/bin
-
 # Insert home bin to path
 export PATH=$PATH:$HOME/bin/
+# Flutter
+export PATH=$PATH:$HOME/bin/flutter/bin
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
