@@ -21,6 +21,8 @@ export DATE=`date +%d-%m-%Y`
 export PATH=$PATH:$HOME/bin/
 # Flutter
 export PATH=$PATH:$HOME/bin/flutter/bin
+# Android Studio
+export PATH=$PATH:$HOME/bin/android-studio/bin
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
