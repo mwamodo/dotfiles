@@ -63,7 +63,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git jump z zsh-autosuggestions
+  git jump z zsh-autosuggestions docker docker-compose
 )
 
 source $ZSH/oh-my-zsh.sh
