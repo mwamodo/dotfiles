@@ -101,3 +101,6 @@ source $HOME/dotfiles/init/init.sh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# Correct my terminal errors automatically
+eval $(thefuck --alias)
