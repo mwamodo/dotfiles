@@ -36,6 +36,9 @@ export wrapper(){
  running command \"$(echo $@)\" took $(($(date +%s) - start)) seconds to finish"
 }
 
+# Google credentials for nineafrica (mwamodojnr@gmail.com account)
+# export GOOGLE_APPLICATION_CREDENTIALS="/home/mwamodo/nine.africa/Secrets/nine-school.json"
+
 # Load nvm automatically when a dir has .nvmrc file
 
 # autoload -U add-zsh-hook
