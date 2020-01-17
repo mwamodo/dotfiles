@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/mwamodo/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -63,7 +63,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git jump z zsh-autosuggestions docker docker-compose
+  git jump z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -102,5 +102,5 @@ source $HOME/dotfiles/init/init.sh
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
-# Correct my terminal errors automatically
-eval $(thefuck --alias)
+# TODO: Correct my terminal errors automatically
+# eval $(thefuck --alias)
