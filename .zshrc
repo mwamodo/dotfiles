@@ -103,7 +103,7 @@ source $HOME/dotfiles/init/init.sh
 export PATH="$PATH:$HOME/.rvm/bin"
 
 # TODO: Correct my terminal errors automatically
-# eval $(thefuck --alias)
+eval $(thefuck --alias)
 
 prompt_context() {
   # Custom (Random emoji)
