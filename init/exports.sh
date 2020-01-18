@@ -19,8 +19,10 @@ export DATE=`date +%d-%m-%Y`
 
 # Insert home bin to path
 export PATH=$PATH:$HOME/bin/
+
 # Flutter
 export PATH=$PATH:$HOME/bin/flutter/bin
+
 # Android Studio
 export PATH=$PATH:$HOME/bin/android-studio/bin
 
