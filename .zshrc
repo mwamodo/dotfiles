@@ -57,19 +57,15 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='mvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -91,8 +87,8 @@ source $HOME/dotfiles/init/init.sh
 # TODO: Correct my terminal errors automatically
 eval $(thefuck --alias)
 
+# Custom Promt (Random emoji) 
 prompt_context() {
-  # Custom (Random emoji)
   emojis=("⚡️" "🔥" "💀" "👑" "😎" "🐸" "🐵" "🦄" "🌈" "🍻" "🚀" "💡" "🎉" "🔑" "🚦" "🌙")
   RAND_EMOJI_N=$(( $RANDOM % ${#emojis[@]} + 1))
   prompt_segment black default "${emojis[$RAND_EMOJI_N]} "

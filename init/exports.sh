@@ -12,34 +12,18 @@ unset MANPATH # delete if you already modified MANPATH elsewhere in your config
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
 # Insert scripts to path
-export PATH=$PATH:$HOME/dotfiles/scripts
-export EDITOR=vim
+# export PATH=$PATH:$HOME/dotfiles/scripts
 
 export DATE=`date +%d-%m-%Y`
 
 # Insert home bin to path
 export PATH=$PATH:$HOME/bin/
 
-# Flutter
-export PATH=$PATH:$HOME/bin/flutter/bin
-
-# Android Studio
-export PATH=$PATH:$HOME/bin/android-studio/bin
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-
-# Wrapper; Notify me when a script is done
-
-export wrapper(){
-  start=$(date +%s)
-  "$@"
-  [ $(($(date +%s) - start)) -le 15 ] || notify-send "Notification" "Long\
- running command \"$(echo $@)\" took $(($(date +%s) - start)) seconds to finish"
-}
-
-# Google credentials for nineafrica (mwamodojnr@gmail.com account)
-# export GOOGLE_APPLICATION_CREDENTIALS="/home/mwamodo/nine.africa/Secrets/nine-school.json"
+ 
+# Google credentials .json file
+# export GOOGLE_APPLICATION_CREDENTIALS=""
 
 # Load nvm automatically when a dir has .nvmrc file
 

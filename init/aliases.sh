@@ -25,16 +25,3 @@ alias rmdir='echo "⛔  use trash"; false'
 
 # Laziness Part
 alias e="exit"
-
-# taskwarrior
-alias t="task"
-alias tc="task calendar"
-alias tbd="task burndown.daily"
-alias th="task history"
-
-# journal
-alias journal="code $HOME/nine.africa/Documents/Journal/$DATE.md"
-alias jencrypt="steghide embed -cf $HOME/nine.africa/Documents/Journal/$DATE.jpg -ef $HOME/nine.africa/Documents/Journal/$DATE.md"
-alias jshred="shred -uv $HOME/nine.africa/Documents/Journal/$DATE.md"
-alias jtdecrypt="steghide extract -sf $HOME/nine.africa/Documents/Journal/$DATE.jpg"
-alias jdecrypt="steghide extract -sf"
