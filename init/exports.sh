@@ -19,6 +19,9 @@ export DATE=`date +%d-%m-%Y`
 # Insert home bin to path
 export PATH=$PATH:$HOME/bin/
 
+# gpg: signing failed: Inappropriate ioctl for device macOS
+export GPG_TTY=$(tty)
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
  
