@@ -93,3 +93,13 @@ prompt_context() {
   RAND_EMOJI_N=$(( $RANDOM % ${#emojis[@]} + 1))
   prompt_segment black default "${emojis[$RAND_EMOJI_N]} "
 }
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/Users/mwamodo/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/mwamodo/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/mwamodo/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/mwamodo/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mwamodo/google-cloud-sdk/completion.zsh.inc'; fi
