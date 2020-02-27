@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# 1. Install zsh and make it your defualt shell
-# 2. Install vim
-# 3. install oh-my-zsh
+# 1. TODO: Install zsh and make it your defualt shell
+# 2. TODO: Install vim
+# 3. TODO: install oh-my-zsh
 
 echo "Installed zsh, made it your default shell"
 echo "Installed vim"
