@@ -103,3 +103,8 @@ if [ -f '/Users/mwamodo/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/mwamodo
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/mwamodo/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mwamodo/google-cloud-sdk/completion.zsh.inc'; fi
+
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+
+# Run rbenv automatically
+eval "$(rbenv init -)"
