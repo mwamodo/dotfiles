@@ -22,6 +22,9 @@ export PATH=$PATH:$HOME/bin/
 # Firefox
 export PATH=/opt/firefox/firefox:$PATH
 
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+
 # gpg: signing failed: Inappropriate ioctl for device macOS
 export GPG_TTY=$(tty)
 
