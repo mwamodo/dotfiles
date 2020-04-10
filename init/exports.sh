@@ -25,14 +25,16 @@ export PATH=/opt/firefox/firefox:$PATH
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 
+# php
+export PATH="/usr/local/opt/php@7.3/bin:$PATH"
+export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
 # gpg: signing failed: Inappropriate ioctl for device macOS
 export GPG_TTY=$(tty)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
- 
-# Google credentials .json file
-export GOOGLE_APPLICATION_CREDENTIALS="$HOME/Documents/eacup-dev-267107-7fe1f0b79443.json"
 
 # Load nvm automatically when a dir has .nvmrc file
 
