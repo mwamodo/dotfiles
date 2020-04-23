@@ -84,9 +84,6 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 source $HOME/dotfiles/init/init.sh
 
-# TODO: Correct my terminal errors automatically
-eval $(thefuck --alias)
-
 # Custom Promt (Random emoji) 
 prompt_context() {
   emojis=("⚡️" "🔥" "💀" "👑" "😎" "🐸" "🐵" "🦄" "🌈" "🍻" "🚀" "💡" "🎉" "🔑" "🚦" "🌙")
