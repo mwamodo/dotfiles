@@ -64,7 +64,7 @@ export LANG=en_US.UTF-8
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='mvim'
+  export EDITOR='vim'
 fi
 
 # Compilation flags
@@ -86,7 +86,7 @@ source $HOME/dotfiles/init/init.sh
 
 # Custom Promt (Random emoji) 
 prompt_context() {
-  emojis=("⚡️" "🔥" "💀" "👑" "😎" "🐸" "🐵" "🦄" "🌈" "🍻" "🚀" "💡" "🎉" "🔑" "🚦" "🌙")
+  emojis=("🔥" "💀" "👑" "😎" "🦄" "🍻" "🚀" "💡" "🎉" "🔑" "🚦")
   RAND_EMOJI_N=$(( $RANDOM % ${#emojis[@]} + 1))
   prompt_segment black default "${emojis[$RAND_EMOJI_N]} "
 }
