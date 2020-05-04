@@ -38,7 +38,6 @@ export NVM_DIR="$HOME/.nvm"
 export GOOGLE_APPLICATION_CREDENTIALS="$HOME/Documents/eacup-dev-267107-7fe1f0b79443.json"
 
 # Run homestead from anywhere
-
 function homestead() {
     ( cd ~/Homestead && vagrant $* )
 }
