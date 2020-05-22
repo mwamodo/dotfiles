@@ -42,3 +42,4 @@ bash get-me-started.sh
 
 <!-- TODO: Add nvm installation to the get started script -->
 <!-- TODO: npm without sudo setup with script-->
+<!-- TODO: The same scripts for ubuntu and mac. -->
