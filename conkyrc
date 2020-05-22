@@ -1,0 +1,76 @@
+
+own_window_hints undecorated,below,skip_taskbar
+
+#own_window_colour 172B4D
+#own_window_transparent yes
+
+own_window yes
+own_window_type normal
+own_window_argb_visual yes
+own_window_class override
+own_window_argb_visual yes
+own_window_argb_value 180
+
+background no
+
+double_buffer yes
+
+use_spacer right
+use_xft yes
+
+update_interval 3.0
+
+minimum_size 400
+
+draw_shades yes
+
+draw_outline no
+draw_borders no
+
+uppercase no
+
+stippled_borders 8
+
+border_width 1
+
+default_color white
+default_shade_color black
+default_outline_color white
+
+alignment bottom_right
+
+gap_x 10
+gap_y 10
+
+override_utf8_locale no
+xftfont Terminus:size=10
+xftalpha 0.8
+
+TEXT
+
+${offset 40}${color slate grey}${time %a, } ${color }${time %e %B %G} ${offset 10}${color slate grey}${time %Z,}${color }${time %H:%M}
+${offset 40}${color slate grey}UpTime: ${color }$uptime
+
+${offset 40}${color slate grey}CPU:${color } $cpu% ${acpitemp}C ${offset 10}${color slate grey}Processes: ${color }$processes ${offset 10}${color slate grey}Running: ${color }$running_processes
+
+${offset 40}${color slate grey}Highest CPU:
+${offset 40}${color #ddaa00} ${top name 1}${top_mem cpu 1}
+${offset 40}${color lightgrey} ${top name 2}${top cpu 2}
+${offset 40}${color lightgrey} ${top name 3}${top cpu 3}
+${offset 40}${color lightgrey} ${top name 4}${top cpu 4}
+
+${offset 40}${color slate grey}Highest MEM:
+${offset 40}${color #ddaa00} ${top_mem name 1}${top_mem mem 1}
+${offset 40}${color lightgrey} ${top_mem name 2}${top_mem mem 2}
+${offset 40}${color lightgrey} ${top_mem name 3}${top_mem mem 3}
+${offset 40}${color lightgrey} ${top_mem name 4}${top_mem mem 4}
+
+${offset 40}${color slate grey}MEM:  ${color } $memperc% $mem | $memmax
+${offset 40}${membar 3,100}
+${offset 40}${color slate grey}SWAP: ${color }$swapperc% $swap | $swapmax
+${offset 40}${swapbar 3,100}
+
+${offset 40}${color slate grey}ROOT:    ${color }${fs_free /} | ${fs_size /}
+${offset 40}${fs_bar 3,100 /}
+${offset 40}${color slate grey}HOME:  ${color }${fs_free /home} | ${fs_size /home}
+${offset 40}${fs_bar 3,100 /home}
