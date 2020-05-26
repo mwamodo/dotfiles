@@ -11,9 +11,6 @@ export PATH="$NPM_PACKAGES/bin:$PATH"
 unset MANPATH # delete if you already modified MANPATH elsewhere in your config
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
-# Insert scripts to path
-# export PATH=$PATH:$HOME/dotfiles/scripts
-
 export DATE=`date +%d-%m-%Y`
 
 # Insert home bin to path
@@ -29,6 +26,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="/usr/local/opt/php@7.3/bin:$PATH"
 export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
 export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="$HOME/.config/composer/vendor/bin:$PATH" # Ubuntu Composer Installs Path
 
 # gpg: signing failed: Inappropriate ioctl for device macOS
 export GPG_TTY=$(tty)
