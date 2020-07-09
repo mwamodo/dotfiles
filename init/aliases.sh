@@ -25,3 +25,6 @@ alias rmdir='echo "⛔  use trash"; false'
 
 # Laziness Part
 alias e="exit"
+alias update="_ apt update"
+alias upgrade="_ apt upgrade -y"
+alias reload="source ~/.zshrc"
