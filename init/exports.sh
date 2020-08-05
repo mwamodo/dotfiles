@@ -26,7 +26,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="/usr/local/opt/php@7.3/bin:$PATH"
 export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
 export PATH="$HOME/.composer/vendor/bin:$PATH"
-# export PATH="$HOME/spark-installer:$PATH"
+export PATH="$HOME/spark-installer:$PATH"
 
 # gpg: signing failed: Inappropriate ioctl for device macOS
 export GPG_TTY=$(tty)

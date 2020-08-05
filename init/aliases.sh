@@ -18,6 +18,7 @@ alias c="code"
 alias j="jump"
 alias hd="trash .zsh_history"
 alias h="history | awk '{print $2}' | sort | uniq -c | sort -rn | head -5"
+alias artisan="php artisan"
 
 # TRASH; Prevent Permanent Deletes
 alias rm='echo "⛔  use trash"; false'
