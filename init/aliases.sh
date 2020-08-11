@@ -18,13 +18,17 @@ alias c="code"
 alias j="jump"
 alias hd="trash .zsh_history"
 alias h="history | awk '{print $2}' | sort | uniq -c | sort -rn | head -5"
+
+# PHP
 alias artisan="php artisan"
+alias mfs="php artisan migrate:fresh --seed"
+alias tinker="php artisan tinker"
 
 # TRASH; Prevent Permanent Deletes
 alias rm='echo "⛔  use trash"; false'
 alias rmdir='echo "⛔  use trash"; false'
 
-# Laziness Part
+# The Laziness Part
 alias e="exit"
 alias update="_ apt update"
 alias upgrade="_ apt upgrade -y"
