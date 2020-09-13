@@ -1,5 +1,5 @@
 # yarn global as set in the installation script
-export PATH="$PATH:`yarn --offline global bin`"
+# export PATH="$PATH:`yarn --offline global bin`"
 
 # npm global path to prevent install npm with sudo
 export NPM_PACKAGES="${HOME}/.npm-packages"
