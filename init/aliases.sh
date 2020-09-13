@@ -23,6 +23,7 @@ alias h="history | awk '{print $2}' | sort | uniq -c | sort -rn | head -5"
 # PHP
 alias artisan="php artisan"
 alias mfs="php artisan migrate:fresh --seed"
+alias mf="php artisan migrate"
 alias tinker="php artisan tinker"
 
 # TRASH; Prevent Permanent Deletes
