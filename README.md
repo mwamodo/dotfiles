@@ -16,12 +16,22 @@ Enjoy! 😘
 
 ```bash
 $ cd ~
-$ git clone git@github.com:mwamodojnr/dotfiles.git
+$ git clone git@github.com:mwamodo/dotfiles.git
 ```
 
 2. Install Requirements
 
-**install nodejs, comes with npm and npx**
+(a) Install nodejs. [installation instructions](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
+
+(b) Install zsh
+```bash
+sudo apt install zsh
+```
+
+(c) Make zsh your default using 
+```bash
+chsh -s $(which zsh)
+```
 
 ```bash
 npx install-peerdeps --global eslint-config-wesbos
