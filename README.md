@@ -35,6 +35,20 @@ chsh -s $(which zsh)
 
 (d) Install OhMyZsh. [Installation Instructions](https://ohmyz.sh/#install)
 
+(e) Install nvm - node version manager [Installation Instructions](https://github.com/nvm-sh/nvm)
+
+(f) (Optional) install default node with nvm. Current LTS v12
+ ```bash
+ nvm install v12.18.3
+ ```
+ 
+(g) Make global npm install without sudo [check how](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md)
+
+(h) Install yarn.
+```bash
+npm install -g yarn
+```
+
 ```bash
 npx install-peerdeps --global eslint-config-wesbos
 ```
