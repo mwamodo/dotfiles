@@ -26,12 +26,14 @@ $ git clone git@github.com:mwamodo/dotfiles.git
 (b) Install zsh
 ```bash
 sudo apt install zsh
-```
+```https://ohmyz.sh/#install
 
 (c) Make zsh your default using 
 ```bash
 chsh -s $(which zsh)
 ```
+
+(d) Install OhMyZsh. [Installation Instructions](https://ohmyz.sh/#install)
 
 ```bash
 npx install-peerdeps --global eslint-config-wesbos
