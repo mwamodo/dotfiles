@@ -20,11 +20,15 @@ alias j="jump"
 alias hd="trash .zsh_history"
 alias h="history | awk '{print $2}' | sort | uniq -c | sort -rn | head -5"
 
-# PHP
+# PHP | Laravel
 alias artisan="php artisan"
+alias mff="php artisan migrate:fresh"
 alias mfs="php artisan migrate:fresh --seed"
 alias mf="php artisan migrate"
+alias ms="php artisan migrate:status"
 alias tinker="php artisan tinker"
+alias db:wipe="php artisan db:wipe"
+alias db:seed="php artisan db:seed"
 
 # TRASH; Prevent Permanent Deletes
 alias rm='echo "⛔  use trash"; false'
