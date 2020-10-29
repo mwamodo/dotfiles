@@ -34,6 +34,9 @@ alias db:seed="php artisan db:seed"
 alias rm='echo "⛔  use trash"; false'
 alias rmdir='echo "⛔  use trash"; false'
 
+# Use shortcuts
+alias clear='echo "⛔ use shortcuts!!"; false'
+
 # The Laziness Part
 alias e="exit"
 alias update="_ apt update"
