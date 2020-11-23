@@ -12,7 +12,6 @@ alias gpod="git push origin dev"
 alias glog="git log --graph --pretty=format:'''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
 
 # Programming and Making Work Easy
-alias code="code-insiders"
 alias v="vim"
 alias vi="vim"
 alias c="code"
