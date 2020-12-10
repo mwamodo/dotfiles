@@ -21,6 +21,8 @@ alias h="history | awk '{print $2}' | sort | uniq -c | sort -rn | head -5"
 
 # PHP | Laravel
 alias artisan="php artisan"
+alias horizon='php artisan horizon'
+alias sail='bash vendor/bin/sail'
 alias mff="php artisan migrate:fresh"
 alias mfs="php artisan migrate:fresh --seed"
 alias mf="php artisan migrate"
