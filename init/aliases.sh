@@ -30,6 +30,7 @@ alias ms="php artisan migrate:status"
 alias tinker="php artisan tinker"
 alias db:wipe="php artisan db:wipe"
 alias db:seed="php artisan db:seed"
+alias sail='bash vendor/bin/sail'
 # alias logs:clear ="truncate -s 0 storage/logs/laravel.log"
 
 # TRASH; Prevent Permanent Deletes
