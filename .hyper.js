@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 10,
 
     // font family with optional fallbacks
-    fontFamily: '"OperatorMono Nerd Font", "Fira Mono for Powerline", monospace',
+    fontFamily: '"OperatorMono Mono Lig Medium", "Fira Mono for Powerline", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
