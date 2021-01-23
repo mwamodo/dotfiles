@@ -33,6 +33,8 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+export GTI_SPEED=2000
+
 # Load nvm automatically when a dir has .nvmrc file
 
 autoload -U add-zsh-hook

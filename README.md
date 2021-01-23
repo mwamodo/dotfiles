@@ -65,7 +65,8 @@ $ sudo apt install vim git xdotool zenity xsel
 cd dotfiles
 bash get-me-started.sh
 ```
-
+## NOTE
+Changes my git aliases to gti. just for fun. you can install gti from here https://github.com/rwos/gti.
 <!-- TODO: Add nvm installation to the get started script -->
 <!-- TODO: npm without sudo setup with script-->
 <!-- TODO: The same scripts for ubuntu and mac. -->
