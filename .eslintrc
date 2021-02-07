@@ -2,6 +2,4 @@
   "extends": ["wesbos"]
 }
 
-// TODO: A better personal global eslint.
-// - this one is great but does not work with things like react.
-// I am not sure about this yet. but its something to look at.
+// TODO: A better personal global eslint

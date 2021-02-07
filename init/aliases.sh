@@ -5,11 +5,11 @@ alias la="ls -a"
 alias lla="ls -al"
 
 # Better Git
-alias gs="gti status -s"
-alias gc="gti commit -m"
-alias gpom="gti push origin master"
-alias gpod="gti push origin dev"
-alias glog="gti log --graph --pretty=format:'''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
+alias gs="git status -s"
+alias gc="git commit -m"
+alias gpom="git push origin master"
+alias gpod="git push origin dev"
+alias glog="git log --graph --pretty=format:'''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'"
 
 # Programming and Making Work Easy
 alias v="vim"

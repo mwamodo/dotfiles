@@ -6,7 +6,7 @@ These are settings I use
 
 These are constantly changing as I work on different types of projects so I don't necessarily always have an answer to "y do u do \_**\_ instead of \_\_**"
 
-Enjoy! 😘
+Enjoy!
 
 ## Usage
 
@@ -37,7 +37,7 @@ chsh -s $(which zsh)
 
 (e) Install nvm - node version manager [Installation Instructions](https://github.com/nvm-sh/nvm)
 
-(f) (Optional) install default node with nvm. Current LTS v12
+(f) (Optional) install default node with nvm. Current LTS v14
  ```bash
  nvm install v14.15.4
  ```
@@ -65,8 +65,7 @@ $ sudo apt install vim git xdotool zenity xsel
 cd dotfiles
 bash get-me-started.sh
 ```
-## NOTE
-Changes my git aliases to gti. just for fun. you can install gti from here https://github.com/rwos/gti.
+
 <!-- TODO: Add nvm installation to the get started script -->
 <!-- TODO: npm without sudo setup with script-->
 <!-- TODO: The same scripts for ubuntu and mac. -->
