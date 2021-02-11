@@ -21,6 +21,7 @@ alias h="history | awk '{print $2}' | sort | uniq -c | sort -rn | head -5"
 
 # PHP | Laravel
 alias artisan="php artisan"
+alias a='php artisan'
 alias horizon='php artisan horizon'
 alias sail='bash vendor/bin/sail'
 alias mff="php artisan migrate:fresh"
@@ -31,6 +32,7 @@ alias tinker="php artisan tinker"
 alias db:wipe="php artisan db:wipe"
 alias db:seed="php artisan db:seed"
 alias logs:clear="truncate -s 0 storage/logs/laravel.log"
+alias artisan:test='php artisan test --parallel'
 
 # TRASH; Prevent Permanent Deletes
 alias rm='echo "⛔  use trash"; false'
