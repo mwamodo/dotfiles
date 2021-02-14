@@ -21,6 +21,9 @@ export PATH="/usr/local/opt/php@7.3/bin:$PATH"
 export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
+# go
+export PATH=$PATH:$HOME/go/bin
+
 # gpg: signing failed: Inappropriate ioctl for device macOS
 export GPG_TTY=$(tty)
 
