@@ -60,3 +60,18 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+
+commit () {
+  
+  commitMessage="$1"
+
+  if [ "$commitMessage" = "" ]
+  then
+      commitMessage="WIP"
+  fi
+
+  git add .
+  eval "git commit -a -m '${commitMessage}'"
+
+}
