@@ -69,3 +69,5 @@ bash get-me-started.sh
 <!-- TODO: Add nvm installation to the get started script -->
 <!-- TODO: npm without sudo setup with script-->
 <!-- TODO: The same scripts for ubuntu and mac. -->
+<!-- 1. Better get started script. -->
+<!-- - include "git config --global core.excludesfile \${HOME}/.gitignore_global" -->
