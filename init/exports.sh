@@ -61,7 +61,6 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-
 commit () {
   
   commitMessage="$1"
@@ -74,4 +73,16 @@ commit () {
   git add .
   eval "git commit -a -m '${commitMessage}'"
 
+}
+
+new-laravel () {
+    
+    appName="$1"
+
+    if [ "appName" = "" ]
+    then
+        exit
+    fi
+
+    eval "curl -s https://laravel.build/'${appName}' | bash"
 }
