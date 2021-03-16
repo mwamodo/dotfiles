@@ -4,6 +4,9 @@ alias ll="ls -l"
 alias la="ls -a"
 alias lla="ls -al"
 
+# Jump to directories
+alias sites="cd ~/Sites"
+
 # Better Git
 alias gs="git status -s"
 alias gc="git commit -m"
